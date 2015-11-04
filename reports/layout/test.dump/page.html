@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Galen Page Dump</title>
+        <link rel="stylesheet" type="text/css" href="galen-pagedump.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="galen-pagedump.js"></script>
+        <script>
+var pageData = {"pageName":"http://getbootstrap.com","title":"Bootstrap · The world's most popular mobile-first and responsive front-end framework.","items":{"navbar":{"area":[35,50,98,50],"text":"Bootstrap","hasImage":true},"navbar-item-8":{"area":[930,50,60,50],"text":"Blog","hasImage":true},"navbar-item-7":{"area":[867,50,63,50],"text":"Expo","hasImage":true},"bootstrap-logo":{"area":[433,180,144,144],"text":"B","hasImage":true},"navbar-item-6":{"area":[785,50,81,50],"text":"Themes","hasImage":true},"navbar-item-5":{"area":[529,50,99,50],"text":"Customize","hasImage":true},"navbar-item-4":{"area":[430,50,99,50],"text":"JavaScript","hasImage":true},"navbar-item-3":{"area":[317,50,113,50],"text":"Components","hasImage":true},"navbar-item-2":{"area":[259,50,58,50],"text":"CSS","hasImage":true},"navbar-item-1":{"area":[132,50,127,50],"text":"Getting started","hasImage":true}}};
+        </script>
+    </head>
+
+    <body>
+        <script>
+            $(function () {
+                initGalenPageDump(pageData);
+            });
+        </script>
+        <h1>http://getbootstrap.com - Galen page dump</h1>
+        <div class="image">
+            <div class="canvas">
+            </div>
+            <img src="page.png">
+            <div class="bottombarstub"></div>
+        </div>
+        <div id="sidebar">
+            <div class="wrapper">
+                <div id="object-list">
+                    <h2>All objects:</h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div id="object-details" style="display: none;">
+                    <h2>Details</h2>
+                    <span class="field-name">Name:</span>
+                    <span class="field-value xf-object-name"></span>
+
+                    <span class="field-name">Area:</span>
+                    <span class="field-value xf-object-area"></span>
+
+                    <span class="field-name">Text:</span>
+                    <span class="field-value xf-object-text"></span>
+                    
+                    <span class="field-name">Image:</span>
+                    <div class="image"></div>
+
+                </div>
+                <div class="bottombarstub"></div>
+            </div>
+        </div>
+        <div id="bottombar">
+            <div class="wrapper">
+                <div id="object-suggestions" style="display: none;">
+                    <h2>Spec Suggestions</h2>
+                    <div class="spec-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
