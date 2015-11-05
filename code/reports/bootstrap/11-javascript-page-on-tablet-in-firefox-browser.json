@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/javascriptPageLayout.gspec included tags: ",
           "status" : "error",
-          "time" : 1439919742682,
+          "time" : 1446703658072,
           "includedTags" : [ ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -67,22 +67,22 @@
           } ],
           "objects" : {
             "navbar" : {
-              "area" : [ 0, 0, 625, 50 ]
+              "area" : [ 0, 50, 625, 50 ]
             },
             "ad" : {
-              "area" : [ 148, 484, 330, 142 ]
+              "area" : [ 148, 534, 330, 142 ]
             },
             "ad-container" : {
-              "area" : [ 15, 484, 595, 142 ]
+              "area" : [ 15, 534, 595, 142 ]
             }
           },
           "screenshot" : "layout-11-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1439919741513,
+        "time" : 1446703656776,
         "type" : "node"
       } ],
-      "time" : 1439919738843,
+      "time" : 1446703653001,
       "type" : "node"
     } ]
   }

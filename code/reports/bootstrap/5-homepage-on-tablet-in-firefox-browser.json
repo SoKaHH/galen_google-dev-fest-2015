@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/homePageLayout.gspec included tags: ",
           "status" : "error",
-          "time" : 1439919715839,
+          "time" : 1446703628511,
           "includedTags" : [ ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -66,19 +66,19 @@
           } ],
           "objects" : {
             "navbar" : {
-              "area" : [ 0, 0, 625, 50 ]
+              "area" : [ 0, 50, 625, 50 ]
             },
             "bootstrap-logo" : {
-              "area" : [ 241, 80, 144, 144 ]
+              "area" : [ 241, 130, 144, 144 ]
             }
           },
           "screenshot" : "layout-5-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1439919714676,
+        "time" : 1446703627261,
         "type" : "node"
       } ],
-      "time" : 1439919711719,
+      "time" : 1446703624147,
       "type" : "node"
     } ]
   }
